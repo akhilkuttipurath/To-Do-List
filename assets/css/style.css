@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background: #2c3e50;
+}
+
+#addBtn {
+position: absolute;
+left: 60%;
+top: 29px;
+padding: 17px 41px 18px 41px;
+cursor: pointer;
+background-color: rgba(52, 152, 219, 0.48);
+border-style: none;
+}
+.filter-list {
+  margin: auto;
+  width: 450px;
+  background: #3498db;
+  border-radius: 5px;
+  border: 1px solid #196090;
+}
+.filter-list input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px 5px 0px 0px;
+  border: 0;
+  font-size: 24px;
+}
+.filter-list input:focus {
+  outline: none;
+}
+.filter-list ul {
+  margin: 0;
+  padding: 0;
+}
+.filter-list ul li {
+  list-style-type: none;
+  margin: 0;
+  color: white;
+  padding: 10px 20px;
+  border-top: 1px solid #196090;
+}
+.filter-list ul li:hover {
+  background: #2980b9;
+}
