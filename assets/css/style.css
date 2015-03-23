@@ -7,15 +7,18 @@ body {
   padding: 20px;
   background: #2c3e50;
 }
-
+.btn-wrapper{
+	width: 100%;
+	float: left;
+}
 #addBtn {
-position: absolute;
-left: 59%;
-top: 29px;
-padding: 17px 41px 18px 41px;
-cursor: pointer;
-background-color: rgba(52, 152, 219, 0.48);
-border-style: none;
+	position: absolute;
+	left: 59%;
+	top: 29px;
+	padding: 17px 41px 18px 41px;
+	cursor: pointer;
+	background-color: rgba(52, 152, 219, 0.48);
+	border-style: none;
 }
 .filter-list {
   margin: auto;
@@ -46,6 +49,7 @@ border-style: none;
   padding: 10px 20px;
   border-top: 1px solid #196090;
 }
-.filter-list ul li:hover {
+.filter-list li:hover {
   background: #2980b9;
+  cursor: pointer;
 }
